@@ -65,7 +65,7 @@
     margin-bottom: 10px;
 }
 
-button{
+.hero .left button{
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
@@ -129,16 +129,81 @@ button{
 /* QUOTE */
 
 .quote{
-    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E5E7EB;
+
 }
 
+.quote .phrase{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 700px;
+}
+
+.quote .signature{
+    font-weight: 900;
+    text-align: end;
+    margin-top: 0px;
+    margin-right: 250px;
+}
 
 /* Footer */
 
 .footer{
-    border: 2px solid gold;
+    color: #E5E7EB;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.footer .box{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    padding: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 50px;
+    border-radius: 8px;
+}
+
+.footer .text{
+    max-width: 450px;
+}
+
+
+.footer .text h3{
+   margin: 0px;
+   padding-top: 20px;
+}
+
+.footer .text p{
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.bbottom{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:#F9FAF8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    align-self: center;
+}
 
 
 
